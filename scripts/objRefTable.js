@@ -7,7 +7,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.solid,
 		C3.Behaviors.jumpthru,
 		C3.Behaviors.Platform,
-		C3.Behaviors.bound,
 		C3.Plugins.Keyboard,
 		C3.Plugins.Text,
 		C3.Plugins.System.Cnds.EveryTick,
@@ -38,7 +37,6 @@ self.C3_JsPropNameTable = [
 	{Sprite3: 0},
 	{SoldierIdle: 0},
 	{Plataforma: 0},
-	{RestritoAoLayout: 0},
 	{Sprite4: 0},
 	{Sprite5: 0},
 	{Sprite6: 0},
@@ -49,6 +47,10 @@ self.C3_JsPropNameTable = [
 	{Sprite10: 0},
 	{Sprite11: 0},
 	{Texto: 0},
+	{Sprite12: 0},
+	{Sprite13: 0},
+	{Sprite14: 0},
+	{Sprite15: 0},
 	{moeda: 0}
 ];
 
@@ -68,5 +70,9 @@ self.InstanceType = {
 	Keyboard: class extends self.IInstance {},
 	Sprite10: class extends self.ISpriteInstance {},
 	Sprite11: class extends self.ISpriteInstance {},
-	Texto: class extends self.ITextInstance {}
+	Texto: class extends self.ITextInstance {},
+	Sprite12: class extends self.ISpriteInstance {},
+	Sprite13: class extends self.ISpriteInstance {},
+	Sprite14: class extends self.ISpriteInstance {},
+	Sprite15: class extends self.ISpriteInstance {}
 }
