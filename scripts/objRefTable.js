@@ -29,6 +29,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetPos,
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.Text.Acts.SetVisible,
+		C3.Plugins.System.Acts.ResetEventVar,
 		C3.Plugins.Sprite.Acts.SetAngle
 	];
 };
