@@ -35,7 +35,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetCollisions,
 		C3.Plugins.Sprite.Cnds.OnDestroyed,
 		C3.Behaviors.Platform.Acts.SetEnabled,
-		C3.Behaviors.Physics.Acts.SetEnabled
+		C3.Behaviors.Physics.Acts.SetEnabled,
+		C3.Behaviors.solid.Acts.SetEnabled,
+		C3.Plugins.Sprite.Acts.SetSize,
+		C3.Plugins.Text.Acts.SetFontColor
 	];
 };
 self.C3_JsPropNameTable = [
@@ -78,6 +81,13 @@ self.C3_JsPropNameTable = [
 	{moeda4: 0},
 	{Física: 0},
 	{espinhos5: 0},
+	{sp14: 0},
+	{sp15: 0},
+	{Sprite19: 0},
+	{sp16: 0},
+	{Texto4: 0},
+	{botao: 0},
+	{Texto5: 0},
 	{moeda: 0}
 ];
 
@@ -116,5 +126,12 @@ self.InstanceType = {
 	espinho4: class extends self.ISpriteInstance {},
 	sp13: class extends self.ISpriteInstance {},
 	moeda4: class extends self.ISpriteInstance {},
-	espinhos5: class extends self.ISpriteInstance {}
+	espinhos5: class extends self.ISpriteInstance {},
+	sp14: class extends self.ISpriteInstance {},
+	sp15: class extends self.ISpriteInstance {},
+	Sprite19: class extends self.ISpriteInstance {},
+	sp16: class extends self.ISpriteInstance {},
+	Texto4: class extends self.ITextInstance {},
+	botao: class extends self.ISpriteInstance {},
+	Texto5: class extends self.ITextInstance {}
 }
