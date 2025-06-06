@@ -9,6 +9,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Platform,
 		C3.Plugins.Keyboard,
 		C3.Plugins.Text,
+		C3.Behaviors.Physics,
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.System.Acts.Scroll,
 		C3.Plugins.Sprite.Exps.X,
@@ -31,7 +32,10 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Text.Acts.SetVisible,
 		C3.Plugins.System.Acts.ResetEventVar,
 		C3.Plugins.Sprite.Acts.SetAngle,
-		C3.Plugins.Sprite.Acts.SetCollisions
+		C3.Plugins.Sprite.Acts.SetCollisions,
+		C3.Plugins.Sprite.Cnds.OnDestroyed,
+		C3.Behaviors.Platform.Acts.SetEnabled,
+		C3.Behaviors.Physics.Acts.SetEnabled
 	];
 };
 self.C3_JsPropNameTable = [
@@ -66,6 +70,14 @@ self.C3_JsPropNameTable = [
 	{Sprite17: 0},
 	{Sprite18: 0},
 	{sp12: 0},
+	{moeda3: 0},
+	{espinhos3: 0},
+	{evento001: 0},
+	{espinho4: 0},
+	{sp13: 0},
+	{moeda4: 0},
+	{Física: 0},
+	{espinhos5: 0},
 	{moeda: 0}
 ];
 
@@ -97,5 +109,12 @@ self.InstanceType = {
 	sp11: class extends self.ISpriteInstance {},
 	Sprite17: class extends self.ISpriteInstance {},
 	Sprite18: class extends self.ISpriteInstance {},
-	sp12: class extends self.ISpriteInstance {}
+	sp12: class extends self.ISpriteInstance {},
+	moeda3: class extends self.ISpriteInstance {},
+	espinhos3: class extends self.ISpriteInstance {},
+	evento001: class extends self.ISpriteInstance {},
+	espinho4: class extends self.ISpriteInstance {},
+	sp13: class extends self.ISpriteInstance {},
+	moeda4: class extends self.ISpriteInstance {},
+	espinhos5: class extends self.ISpriteInstance {}
 }
